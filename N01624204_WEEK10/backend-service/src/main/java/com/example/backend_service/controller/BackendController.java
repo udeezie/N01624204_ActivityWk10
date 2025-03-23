@@ -15,7 +15,7 @@ public class BackendController {
 
     @GetMapping("/")
     public String health() {
-        return "I am OK";
+        return "I need medical attention!";
     }
 
     @GetMapping("/backend")
